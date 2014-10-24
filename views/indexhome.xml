@@ -11,7 +11,7 @@
 			<Require src="toys" id ="items">
 		</Tab>
 		<Tab title="ToysKids" icon="KS_nav_ui.png" id="recipestab">
-			<Require src="toys_kids" id ="items">
+			<Require src="toysKids" id ="items">
 		</Tab>
 		
     </TabGroup>

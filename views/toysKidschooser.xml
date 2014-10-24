@@ -1,5 +1,5 @@
 <Alloy>
-			<Collection  src="ToysKid" />
+			<Collection  src="Toys_kid" />
 			
 				<Window id="tblviewWindow" ><!--class="container"> -->
 					

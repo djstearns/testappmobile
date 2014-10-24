@@ -1,6 +1,6 @@
 <Alloy>
 			
-				<Model src="toys_kids" instance="true" id="thingDetail">
+				<Model src="toys_kid" instance="true" id="thingDetail">
 				<Window id="detail" model="$.thingDetail" dataTransform="dataTransformation" layout="vertical"> 
 					<!-- <TextField id="widget_id" datid = "{$.thingDetail.id}" value="{$.thingDetail.widget_id}"></TextField>-->
 				   

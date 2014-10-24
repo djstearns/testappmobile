@@ -1,6 +1,6 @@
 
 		<Alloy>
-			<Model src="ToysKid" instance="true" id="thingDetail">
+			<Model src="Toys_kid" instance="true" id="thingDetail">
 			<Window id="AddWindow">
 				
 				<ScrollView id="addView" layout="vertical" ><TextField id="kid_id" value="{$.thingDetail.kid_id}" ></TextField>

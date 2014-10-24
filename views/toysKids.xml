@@ -1,6 +1,6 @@
 
 		<Alloy>
-			<Collection  src="ToysKid" />
+			<Collection  src="toys_kid" />
 			<!--<Tab title="Items" icon="KS_nav_ui.png" id="recipestab">-->	
 				<Window id="tblviewWindow" ><!--class="container"> -->
 					<RightNavButton platform="android,ios">
@@ -8,7 +8,7 @@
 					</RightNavButton>
 					<ActivityIndicator id="activityIndicator" />
 					<Label id="labelNoRecords" />
-					<TableView searchHidden="true" id="tblview" dataCollection="ToysKid" moveable="true" editable="true" filterAttribute="title">
+					<TableView searchHidden="true" id="tblview" dataCollection="toys_kid" moveable="true" editable="true" filterAttribute="title">
 					  <SearchBar platform="android,ios"/>
 					  <!--<Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="myLoader" />-->
 					  <TableViewRow id="row" dataId="{id}" title="{name}">
