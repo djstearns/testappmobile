@@ -1,0 +1,40 @@
+
+		<Alloy>
+			<Collection  src="Adult" />
+			<!--<Tab title="Items" icon="KS_nav_ui.png" id="recipestab">-->	
+				<Window id="tblviewWindow" ><!--class="container"> -->
+					<RightNavButton platform="android,ios">
+						<Button id="editme">Edit</Button>
+					</RightNavButton>
+					<ActivityIndicator id="activityIndicator" />
+					<Label id="labelNoRecords" />
+					<TableView searchHidden="true" id="tblview" dataCollection="Adult" moveable="true" editable="true" filterAttribute="title">
+					  <SearchBar platform="android,ios"/>
+					  <!--<Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="myLoader" />-->
+					  <TableViewRow id="row" dataId="{id}" title="{name}">
+						
+						<!--<Label class="rowName" text="{name}"></Label>-->
+					  </TableViewRow>
+					</TableView>
+					 <Toolbar platform="ios" bottom="0" borderTop="true" borderBottom="false">
+		
+					<!-- The Items tag sets the Toolbar.items property. -->
+					<Items>
+						
+					   
+						<Button id="camera" systemButton="Ti.UI.iPhone.SystemButton.CAMERA" />
+						<FlexSpace/>
+						<Button id="refresh" systemButton="Titanium.UI.iPhone.SystemButton.REFRESH" />
+						<FlexSpace/>
+						<Button id="addbtn" systemButton="Titanium.UI.iPhone.SystemButton.ADD" />
+					</Items>
+		
+					<!-- Place additional views for the Toolbar here. -->
+		
+					</Toolbar>
+				</Window>
+				
+			<!--</Tab>-->
+			<!--code will insert new tabs here????-->
+		</Alloy>
+		

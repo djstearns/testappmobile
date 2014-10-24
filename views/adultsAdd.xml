@@ -1,0 +1,14 @@
+
+		<Alloy>
+			<Model src="Adult" instance="true" id="thingDetail">
+			<Window id="AddWindow">
+				
+				<ScrollView id="addView" layout="vertical" ><TextField id="name" hintText="name" value="{$.thingDetail.name}" ></TextField>
+					
+					
+					<Button id="savebtn" title="Save"></Button>
+					<Button id="cancelbtn" title="Cancel"></Button>
+				</ScrollView>
+			</Window>
+		</Alloy>
+		

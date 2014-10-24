@@ -1,0 +1,15 @@
+
+		<Alloy>
+			<Model src="ToysKid" instance="true" id="thingDetail">
+			<Window id="AddWindow">
+				
+				<ScrollView id="addView" layout="vertical" ><TextField id="kid_id" value="{$.thingDetail.kid_id}" ></TextField>
+					<TextField id="kid"></TextField><Button id="pickkid">kid</Button><TextField id="toy_id" value="{$.thingDetail.toy_id}" ></TextField>
+					<TextField id="toy"></TextField><Button id="picktoy">toy</Button>
+					
+					<Button id="savebtn" title="Save"></Button>
+					<Button id="cancelbtn" title="Cancel"></Button>
+				</ScrollView>
+			</Window>
+		</Alloy>
+		

@@ -1,0 +1,27 @@
+<Alloy>
+			<Collection  src="Toy" />
+			
+				<Window id="tblviewWindow" ><!--class="container"> -->
+					
+					<ActivityIndicator id="activityIndicator" />
+					<Label id="labelNoRecords" />
+					<TableView id="tblview" dataCollection="Toy" editable="true" filterAttribute="title">
+					  <SearchBar platform="android,ios"/>
+					 
+					  <TableViewRow id="row" dataId="{id}" model="{alloy_id}" title="{name}">
+						<!--<Label class="rowName" text="{name}"></Label>-->
+					  </TableViewRow>
+					</TableView>
+					<Toolbar platform="ios" bottom="0" borderTop="true" borderBottom="false">
+					<!-- The Items tag sets the Toolbar.items property. -->
+					<Items>
+						<FlexSpace/>
+						<Button id="cancel" systemButton="Titanium.UI.iPhone.SystemButton.CANCEL" />
+						<FlexSpace/>
+					</Items>
+				</Toolbar>
+				</Window>
+			
+			<!--code will insert new tabs here????-->
+		</Alloy>
+		
