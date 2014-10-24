@@ -4,7 +4,7 @@
 			var Modelname = 'Kid';
 			var tblname = 'kids';
 			//foreach manytomany get list and add 'cancel'
-					var ManyToManys = ['adults','related toys', 'Cancel'];
+					var ManyToManys = ['related toys', 'Cancel'];
 					var hasmultimanytomany = true;
 					//ELSE PRINT
 					var ManyToMany = '';//'yingredients';

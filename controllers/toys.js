@@ -5,7 +5,7 @@
 			var tblname = 'toys';
 			
 						//foreach manytomany get list and add 'cancel'
-						var ManyToManys = '';//['related widgets', 'Some Other', 'And another','Yet another','Cancel'];
+						var ManyToManys = ['related toys', 'Cancel']; //['related widgets', 'Some Other', 'And another','Yet another','Cancel'];
 						//var hasmultimanytomany = true;
 						//ELSE PRINT
 						var ManyToMany = '';

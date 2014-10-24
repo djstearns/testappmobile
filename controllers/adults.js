@@ -8,7 +8,7 @@
 						var ManyToManys = '';//['related widgets', 'Some Other', 'And another','Yet another','Cancel'];
 						//var hasmultimanytomany = true;
 						//ELSE PRINT
-						var ManyToMany = '';
+						var ManyToMany = 'kids';
 						var hasmultimanytomany = false;			
 						//Arguments coming in:
 						//var hasmultimanytomay = false;
